@@ -69,7 +69,9 @@ body {
 
 }
 
-
+.apresentacao__lista {
+    list-style: none;
+}
 
 
 

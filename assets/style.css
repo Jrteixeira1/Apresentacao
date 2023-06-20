@@ -106,6 +106,14 @@ body {
     font-weight: 400;
 }
 
+.swiper-button-prev,
+.swiper-button-next {
+    display: none;
+}
+
+
+
+
 @media (max-width: 1200px) {
     .cabecalho {
         padding: 10%;
