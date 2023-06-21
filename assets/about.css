@@ -68,7 +68,10 @@ body {
     font-family: var(--fonte-secundaria);
 
 }
-
+.apresentacao__skill {
+    font-size: 1.5rem;
+    font-family: var(--fonte-primaria);
+}
 .apresentacao__lista {
     list-style: none;
 }
