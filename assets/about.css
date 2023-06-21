@@ -23,7 +23,7 @@ body {
 }
 
 .cabecalho {
-    padding: 2% 0% 0% 15%;
+    padding: 2% 0% 0% 10%;
 
 }
 .cabecalho__menu {
@@ -40,17 +40,18 @@ body {
 }
 
 .apresentacao {
-    padding: 5% 15%;
+    padding-top: 5%;
+    padding-left: 10%;
     display: flex;
-    justify-content: space-between;
-    gap: 82px;
+    justify-content: center;
+    gap: 50px;
     flex-direction: column;
 }
 .apresentacao__conteudo {
-    width: 50%;
+    width: 70%;
     display: flex;
     flex-direction: column;
-    gap: 40px;
+    gap: 20px;
 }
 
 .apresentacao__conteudo__titulo-about {
@@ -96,10 +97,22 @@ body {
         justify-content: center;
     }
     .apresentacao {
-        flex-direction: column-reverse;   
+        flex-direction: column;   
         padding: 5%;
     }
     .apresentacao__conteudo {
         width: auto;
+        order: 1;
+    }
+    .apresentacao__skill {
+        text-align: left;
+        order: 3;
+    }
+    .carrossel__titulo {
+        order: 4;
+        gap: 1px;
+    }
+    .carrossel {
+        order: 5;
     }
 }
